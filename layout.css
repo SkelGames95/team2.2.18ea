@@ -1,1 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ElectronicArtsText", "Verdana", "Helvetica", "Arial", sans-serif;
+}
 
+:root{
+    --size-foreground: 54px;
+    --size-normal: 18px;
+    --footer-terms: 14px;
+    --size-second: 16px;
+    --card-Title: 24px;
+    --hero-H2: 26px;
+    --title-section: 44px;
+}
