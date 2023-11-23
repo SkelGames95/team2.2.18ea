@@ -6,11 +6,11 @@
 }
 
 :root{
-    --size-foreground: 54px;
-    --size-normal: 18px;
-    --footer-terms: 14px;
-    --size-second: 16px;
-    --card-Title: 24px;
-    --hero-H2: 26px;
-    --title-section: 44px;
+    --sizeForeground: 54px;
+    --sizeNormal: 18px;
+    --footerTerms: 14px;
+    --sizeSecond: 16px;
+    --cardTitle: 24px;
+    --heroH2: 26px;
+    --titleSection: 44px;
 }
