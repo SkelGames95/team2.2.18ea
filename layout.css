@@ -7,10 +7,17 @@
 
 :root{
     --sizeForeground: 54px;
+    --foregroundMedia: 38px;
     --sizeNormal: 18px;
-    --footerTerms: 14px;
+    --normalMedia: 16px;
+    --lastText: 14px;
     --sizeSecond: 16px;
+    --secondMedia: 14px;
     --cardTitle: 24px;
+    --cardTitleMedia: 20px;
     --heroH2: 26px;
+    --heroH2Media: 24px;
     --titleSection: 44px;
+    --titleSectionMedia: 32px;
+    --animationTime: 0.1s; 
 }
