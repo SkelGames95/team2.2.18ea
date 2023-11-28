@@ -6,6 +6,17 @@
 }
 
 :root{
+    --preHeader:#161616;
+    --header:#fff;
+    --bodycolor:#EAEAEA;
+    --prefooter:#EAEAEA;
+    --prefooterblue:#1b95da;
+    --footer:#fff;
+    --buttonHero: #07F468;
+    --whiteColorText:#f3f3f3;
+    --blackColorText:#161616;
+    --colorTextTermsEaPlay:#FF4747;
+
     --sizeForeground: 54px;
     --foregroundMedia: 38px;
     --sizeNormal: 18px;
