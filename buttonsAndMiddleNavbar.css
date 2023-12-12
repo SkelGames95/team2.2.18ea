@@ -1,0 +1,23 @@
+button {
+    font-size: var(--sizeNormal);
+    text-decoration: none;
+    line-height: 27px;
+    background-color: transparent;
+    color: var(--blackColor);
+    min-width: 136px;
+    margin-bottom: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.normButton{
+    height: 51px;
+    width: 140px;
+}
+
+.normButton:hover {
+    height: 61px;
+    width: 150px;
+    transform-origin: center;
+}
