@@ -1,14 +1,21 @@
-button {
+button{
     font-size: var(--sizeNormal);
     text-decoration: none;
     line-height: 27px;
     background-color: transparent;
     color: var(--blackColor);
     min-width: 136px;
-    margin-bottom: 16px;
-    display: inline-flex;
+    margin-bottom: 40px;
     align-items: center;
     justify-content: center;
+    position: absolute;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
 }
 
 .normButton{
@@ -19,5 +26,8 @@ button {
 .normButton:hover {
     height: 61px;
     width: 150px;
-    transform-origin: center;
+}
+
+body{
+    height: 1000pc;
 }
