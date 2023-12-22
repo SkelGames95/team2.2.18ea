@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "ElectronicArtsText", "Verdana", "Helvetica", "Arial", sans-serif;
+    background-color: #f3f3f3;
 }
 
 :root{
@@ -33,7 +34,7 @@
     --bodycolorPrefooter: #eaeaea;
     --prefooterBlue: #1b95da;
     --buttonHero: #07f468;
-    --whiteColorText: #f3f3f3;
+    --whiteColorText: #f3f3f3;                              /* testo e background */
     --blackColor: #161616;
     --colorTextTermsEaPlay: #ff4747;
     --sizeForeground: 54px;

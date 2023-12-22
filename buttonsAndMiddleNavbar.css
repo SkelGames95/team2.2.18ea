@@ -62,9 +62,9 @@ body{
 }
 
 .newsarg{
-    background-color: #d6d2d2;
+    background-color: transparent;
 }
 
 .newsarg:hover{
-    background-color: #bbb8b8;
+    background-color: #eaeaea;
 }
