@@ -77,7 +77,9 @@ body{
   background-color: #ffffff;
 }
 
-
+.fa.fa-bars{
+  display: none;
+}
 
 /* ///////////////////////////////////////////////////////////////////////////////////////// */
 .navbar {
@@ -101,7 +103,6 @@ body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.7em;
   cursor: pointer;
-  border: 1px solid rgb(255, 0, 0);
   margin-left:10px;
 }
 
@@ -188,4 +189,29 @@ body{
 
 .navbar-link:hover::after {
   transform: rotate(-135deg);
+}
+
+@media screen and (max-width: 1030px) {
+  .trigger-menu{
+    display: none;
+  }
+  .navbar-list{
+    display: none;
+  }
+  .fa.fa-bars{
+    display: block;
+    margin-top: 3px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+}
+
+
+@media screen and (max-width: 767px) {
+.navbar-logo{
+  max-height: 24px;
+  max-width: 100px;
+}
+
 }
