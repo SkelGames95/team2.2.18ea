@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.giochi-evidenza {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+  
+.photos-contanier{
+    width: 33,33%;
+    padding: 10px 10px;
+
+}
+
+  
+.photos-box {
+    width: 350px;
+    height: 350px;
+    margin: 0 0 0 10px;
+    position: relative;
+    background: linear-gradient(-80deg,rgb(226, 59, 59),rgb(6, 6, 85));
+}
+
+.photos-box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;    
+}
+
+.logo .logo-img{
+    filter: drop-shadow(8px 7px 23px #000);
+    /* font-size: 1.6rem;
+    font-weight: 700; */
+    left: 50%;
+    /* max-height: 20%; */
+    padding: 27%;
+    pointer-events: none;
+    position: absolute;
+    top: 50%; 
+    transform: translate3d(-50%,-50%,0);
+    transition: .4s ease;
+    transition-property: transform;
+}
+
+.photos-box img:hover{
+    width: 100%;
+    opacity: 0.1;
+   
+}
+    /* transform: translate3d(-50%, calc(-100% - 32px), 0);
