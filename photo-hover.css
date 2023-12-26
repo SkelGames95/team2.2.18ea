@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.giochi-evidenza {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /* gap: 1rem; */
+    padding: 7.4218vw;
+}
+  
+.photos-contanier{
+    width: 33%;
+    padding: 10px 10px
+}
+  
+.photos-box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: linear-gradient(-80deg,rgb(226, 59, 59),rgb(6, 6, 85));
+}
+
+.photos-box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;    
+}
+
+.logo .logo-img{
+    filter: drop-shadow(8px 7px 23px #000);
+    left: 50%;
+    padding: 27%;
+    pointer-events: none;
+    position: absolute;
+    top: 50%; 
+    transform: translate3d(-50%,-50%,0);
+}
+
+.photos-box img:hover{
+    width: 100%;
+    opacity: 0.2;
+   
+}
+
+.photos-box:hover .logo .logo-img {
+    top: 32%;
+    transition: .4s ease;
+}
+
+.text-site {
+    display: none;
+}
+
+.photos-box:hover .text-site {
+    filter: drop-shadow(8px 7px 23px #000);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    transform: translate3d(-50%,-50%,0);
+}
+
+@media screen and (max-width: 768px) {
+    .photos-contanier {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .photos-contanier {
+        width: 100%;
+        flex-basis: auto;
+    }
+}
