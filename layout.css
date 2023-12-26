@@ -6,13 +6,36 @@
 }
 
 :root{
-    --headerAndFooter:#fff;
-    --bodycolorPrefooter:#EAEAEA;
-    --prefooterBlue:#1b95da;
-    --buttonHero: #07F468;
-    --whiteColorText:#f3f3f3;
-    --blackColor:#161616;
-    --colorTextTermsEaPlay:#FF4747;
+    --marginBody: 0;
+    --navbarWidthHeight: 100%;
+    --headerWidth: 100%;
+    --eaThemeSpacerHeight: 96px;
+    --haalandSection: 100%;
+    --eaplayGameboxHeightWidth: 100%;
+    --eaplayGameboxLeft: 0;
+    --eaplayGameboxTop:0;
+    --cardsLastNewsWidth: 33.3%;
+    --cardsTitleImgWidth: 100%;
+    --cardsMinHeight: 110px;
+    --buttonsBorderWidth: 2px;
+    --eaplayHeroContentWidthHeightWidth: 100%;
+    --eaplayHeroContentPadding: 32px;
+    --eaplayHeroContentTop: 0;
+    --eaplayHeroContentZindex: 4;
+    --gamersAndParentsFontsize: 24px;
+    --gamersAndParentsFontweight: 600;
+    --gamersAndParentsMargin: 1em0;
+    --linkButtonDiscoverMoreTopLeftBottomRight: 0;
+    --preFooterFontSize: 16px;
+    --footerButtonsPadding: 0 36px 0 24px;
+    --footerButtonsWidthHeight: 100%;
+    --headerAndFooter: #fff;
+    --bodycolorPrefooter: #eaeaea;
+    --prefooterBlue: #1b95da;
+    --buttonHero: #07f468;
+    --whiteColorText: #f3f3f3;
+    --blackColor: #161616;
+    --colorTextTermsEaPlay: #ff4747;
     --sizeForeground: 54px;
     --foregroundMedia: 38px;
     --sizeNormal: 18px;
@@ -23,5 +46,5 @@
     --heroH2: 26px;
     --titleSection: 44px;
     --titleSectionMedia: 32px;
-    --animationTime: 0.1s; 
+    --animationTime: 0.4s; 
 }
