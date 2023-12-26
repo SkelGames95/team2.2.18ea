@@ -4,10 +4,7 @@
   box-sizing: border-box;
   font-size: 18px;
 }
-body{
-  background-color: aquamarine;
-  height: 1000000000000px;
-}
+
 
 .pre-header {
   position: fixed;
