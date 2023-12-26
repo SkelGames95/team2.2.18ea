@@ -1,0 +1,70 @@
+button{
+    font-size: var(--sizeNormal);
+    text-decoration: none;
+    line-height: 27px;
+    color: var(--blackColor);
+    min-width: 136px;
+    margin-inline: 50px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+body{
+    height: 1000pc;
+}
+
+.secbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100px;
+}
+
+.normButton{
+    height: 51px;
+    width: 142px;
+    background-color: transparent;
+    border: black solid 2px;
+}
+
+.greenButton{
+    background-color: var(--buttonHero);
+    border: 0px;
+    border-radius: 35px;
+    height: 51px;
+    width: 142px;
+    padding-inline: 25px;
+}
+
+.pushbuttons:hover {
+    height: 61px;
+    width: 150px;
+}
+
+.buttspans{
+    padding: 12px, 24px;
+    position: sticky;
+}
+
+.middleNavbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: var(--sizeNormal);
+    gap: 5px;
+}
+
+.divider{
+    color: var(--bodycolorPrefooter);
+}
+
+.newsarg{
+    background-color: transparent;
+}
+
+.newsarg:hover{
+    background-color: #eaeaea;
+}
