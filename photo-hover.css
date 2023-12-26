@@ -69,13 +69,13 @@
     transform: translate3d(-50%,-50%,0);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1029px) {
     .photos-contanier {
         width: 50%;
     }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 767px) {
     .photos-contanier {
         width: 100%;
         flex-basis: auto;
