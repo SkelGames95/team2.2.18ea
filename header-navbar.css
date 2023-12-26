@@ -1,0 +1,214 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+
+.pre-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2.2em; /* Altezza modificata in base alla tua necessità */
+  background-color: var(--blackColor);
+  z-index: 1000;
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.pre-header.hide {
+  transform: translateY(-100%);
+}
+.pre-header img{
+  margin-right: 30px;
+}
+.personina{
+  height: 25px;
+}
+.interrogative{
+  height: 30px;
+}
+.button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  height: 35px;
+ 
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+
+.trigger-menu{
+  
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 2%;
+  
+}
+
+
+.button-trigger{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  
+}
+.trigger-img{
+  height: 25px;
+}
+
+.trigger-img:hover {
+  transform: scaleY(1.3);
+  transition: ease-in-out 0.5s; /* Corretto: la funzione transition deve avere uno spazio tra "ease-in-out" e "0.5s" */
+}
+ 
+.trigger-content{
+  position: fixed;
+  height: 100%;
+  width: 42%;
+  background-color: #ffffff;
+}
+
+.fa.fa-bars{
+  display: none;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--headerAndFooter);
+  padding: 10px 20px;
+  height: 55px; /* Assicurati che l'altezza corrisponda a quella del pre-header */
+  width: 100%;
+  position: fixed;
+  top: 2.2em; /* Altezza del pre-header */
+  transition:ease-in-out 0.2s;
+}
+
+.navbar-logo {
+  max-height: 24px;
+  max-width: 212px;
+  text-decoration: none;
+  margin-left: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.7em;
+  cursor: pointer;
+  margin-left:10px;
+}
+
+.navbar-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: -1px;
+
+}
+
+
+.navbar-link {
+  color: var(--blackColor);
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-menu {
+ 
+  display: none;
+  position: absolute;
+  background-color: var(--bodycolorPreFooter);
+  min-width: 160px;
+  padding: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  
+
+}
+
+.dropdown-menu a {
+  color: var(--blackColor);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 270px;
+  
+}
+
+.dropdown-menu a:hover {
+  color: var(--colorTextTermsEaPlay);
+}
+
+.dropdown:hover .dropdown-menu {
+   display: block;
+   background-color: var(--whiteColorText);
+  
+}
+
+.dropdown:hover .navbar-link {
+  color: #ddd;
+ 
+  
+}
+.navbar-link {
+  position: relative;
+  padding-right: 20px;
+  display: inline-block;
+  padding: 30px; /* Ho mantenuto il tuo valore di padding */
+}
+
+.navbar-link::after {
+  content:"";
+  position: absolute;
+  top: 45%;
+  right: 10%;
+  border: 1px solid var(--blackColor); /* Ho aggiunto "solid" e specificato il colore del bordo */
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  transform-origin: 50% 50%;
+  transition: transform 0.2s ease;
+  box-sizing: border-box;
+}
+
+.navbar-link:hover::after {
+  transform: rotate(-135deg);
+}
+
+@media screen and (max-width: 1030px) {
+  .trigger-menu{
+    display: none;
+  }
+  .navbar-list{
+    display: none;
+  }
+  .fa.fa-bars{
+    display: block;
+    margin-top: 3px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+}
+
+
+@media screen and (max-width: 767px) {
+.navbar-logo{
+  max-height: 24px;
+  max-width: 100px;
+}
+
+}
