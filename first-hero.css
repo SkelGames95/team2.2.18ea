@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1000px;
+}
+.hero{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    background-color: black;
+}
+
+ .welcome-to-theclub{
+    width: 50%;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.button-first-hero{
+    margin-top: 20px;
+
+}
+.welcome-to-theclub img{
+    width: 20%;
+    margin-bottom: 20px;
+}
+.hero-img{
+    width: 50%;
+    background-color: beige;
+}
+.hero-img img{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
