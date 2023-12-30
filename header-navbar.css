@@ -1,11 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-size: 18px;
-}
-
-
 .pre-header {
   position: fixed;
   top: 0;
@@ -90,6 +82,7 @@
   position: fixed;
   top: 2.2em; /* Altezza del pre-header */
   transition:ease-in-out 0.2s;
+  z-index: 999;
 }
 
 .navbar-logo {
@@ -109,6 +102,7 @@
   padding: 0;
   margin: 0;
   font-size: 18px;
+  font-family: "ElectronicArtsText", "Verdana", "Helvetica", "Arial", sans-serif;
   letter-spacing: -1px;
 
 }
