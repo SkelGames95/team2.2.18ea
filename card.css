@@ -1,9 +1,27 @@
+  .ultimeNovitaTitle>h3{
+    font-size: var(--titleSection);
+  }
+  .ultimeNovitaTitle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+  }
+
+  .novitas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .ultimeNovita {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    align-content: center;
     width: 100%;
-    padding: 7.4218vw;
+    padding: 7.4218vw 15em;
+    margin-top: -70px;
+    padding-bottom: 30px;
   }
   .cardContainer {
     width: 33.33%;
@@ -38,6 +56,9 @@
   .description {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
   }
   .profile {
     width: 100%;
@@ -45,12 +66,12 @@
   
   .trademark {
     color: red;
-    font-size: var(--lastText);
+    font-size: var(--sizeSecond);
     margin-right: 1em;
   }
   
   .date {
-    font-size: var(--lastText);
+    font-size: var(--sizeSecond);
     margin: 0 7px;
     font-weight: bold;
     margin-left: 1em;
@@ -58,6 +79,9 @@
   
   .cardTitle {
     font-size: var(--cardTitle);
+    width: 100%;
+    text-align: left;
+    overflow-wrap:break-word;
   }
   
   .post {
@@ -65,12 +89,23 @@
     margin: 6.3px 0 0;
   }
   
+  @media (max-width: 1490px) {
+    .ultimeNovita {
+      padding: 7.4218vw;
+      padding-bottom: 3%;
+    }
+  }
+
   @media (max-width: 1029px){
+    .ultimeNovitaTitle>h3{
+      font-size: var(--titleSectionMedia);
+    }
     .cardContainer{
       width: 50%;
     }
     .trademark, .date{
       font-weight: 600;
+      font-size: var(--lastText);
     }
     .trademark{
       margin-right: 0.5em;
@@ -81,10 +116,13 @@
       width: 100%;
     }
     .cardTitle{
-      font-size: 20px;
+      font-size: var(--cardTitleMedia);
     }
     .post{
-      font-size: 16px;
+      font-size: var(--sizeSecond);
+    }
+    .ultimeNovita{
+      margin-top: -40px;
     }
   }
   
@@ -112,5 +150,8 @@
     }
     .profile, .post{
       display: none;
+    }
+    .ultimeNovita{
+      margin-top: -20px;
     }
   }

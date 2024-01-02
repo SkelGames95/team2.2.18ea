@@ -49,10 +49,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 100%;
     font-size: var(--sizeNormal);
     gap: 5px;
-    margin-bottom: -20px;
+    overflow-x: scroll;
 }
 
 .divider{
@@ -93,6 +93,16 @@
 @media screen and (max-width: 767px) {
     .slideicon{
         display: block;
+    }
+    .moreDetails{
+        width: 92%;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+    .pushbuttons{
+        margin: 0;
+        padding: 0;
     }
 }
 
