@@ -3,9 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    height: 1000px;
-}
+
 .hero{
     width: 100%;
     height: 50%;
@@ -58,8 +56,42 @@ body{
 }
 .wlcm-to{
     font-size: 45px;
+    text-align: center;
 }
 .content-first-hero{
+    width: 70%;
+    flex-wrap: wrap;
     text-align: center;
     margin-top: 8px;
+}
+
+@media screen and (max-width: 1030px) {
+.welcome-to-theclub img{
+    width: 45%;
+    margin-top: 10px;
+}
+.greenButton{
+    margin-bottom: 20px;
+}
+}
+@media screen and (max-width: 767px) {
+    .hero{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+    .welcome-to-theclub{
+        width: 100%;
+    }
+    .hero-img {
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+   }
+   .greenButton{
+    width: 290px
+   }
+   /* Rimuovere linea bianca sotto l'immagine di Halaand */
+   /* Sistemare il logo fc24 in media query */
+   
 }
