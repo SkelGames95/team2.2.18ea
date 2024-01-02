@@ -94,5 +94,11 @@
     .slideicon{
         display: block;
     }
-    
+}
+
+@media screen and (max-width: 638px) {
+    .normButton{
+        align-self: center;
+        width: 90%;
+    }
 }
