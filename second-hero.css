@@ -1,0 +1,60 @@
+.hero-section {
+  padding: 20px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0;
+}
+.topIMG button,
+.topIMG {
+  color: white;
+}
+.topIMG .signUp button {
+  width: 30%;
+    margin: 20px 0 0 2px; 
+  border: white solid 2px;
+}
+
+.fixedImage {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.topIMG {
+  position: absolute;
+  width: 33%;
+  inset: 10% 0 0 17%;
+  text-align: left;
+  font-size: 18px;
+  height: 60%;
+  padding: 5px;
+}
+.secondHero{
+    width: 97.7%;
+    height: 100%;
+    padding: 20px;
+    background-image: url("hero-images/hero-section2.jpg");
+    margin-left: 20px;
+    margin-top: -5px;
+}
+.secondHerofooter{
+    font-size: var(--heroH2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secondHerofooter h2{
+    width: 30%;
+}
+
+@media (max-width: 1029px){
+
+}
+
+@media (max-width: 767px){
+
+}
+
+
