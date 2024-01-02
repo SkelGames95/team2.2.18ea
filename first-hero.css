@@ -22,13 +22,29 @@ body{
     align-items: center;
     color: white;
 }
-.button-first-hero{
+.greenButton{
+    background-color: var(--buttonHero);
+    border: 0px;
+    border-radius: 35px;
+    height: 51px;
+    width: 142px;
+    padding-inline: 25px;
     margin-top: 20px;
-
 }
+
+.pushbuttons:hover {
+    height: 61px;
+    width: 150px;
+}
+
+.buttspans{
+    padding: 12px, 24px;
+    position: sticky;
+}
+
 .welcome-to-theclub img{
     width: 20%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .hero-img{
     width: 50%;
@@ -39,4 +55,11 @@ body{
     background-size: cover;
     width: 100%;
     height: 100%;
+}
+.wlcm-to{
+    font-size: 45px;
+}
+.content-first-hero{
+    text-align: center;
+    margin-top: 8px;
 }
