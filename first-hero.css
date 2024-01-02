@@ -1,101 +1,99 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.hero{
-    width: 100%;
-    height: 50%;
-    display: flex;
-    background-color: black;
-    Margin-top: calc(2.2em + 55px)
+.hero {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  background-color: black;
+  margin-top: calc(2.2em + 55px);
 }
 
- .welcome-to-theclub{
-    width: 50%;
-    background-color: #161616;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
+.welcome-to-theclub {
+  width: 50%;
+  background-color: #161616;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
-.greenButton{
-    background-color: var(--buttonHero);
-    border: 0px;
-    border-radius: 35px;
-    height: 51px;
-    width: 142px;
-    padding-inline: 25px;
-    margin-top: 20px;
+.greenButton {
+  background-color: var(--buttonHero);
+  border: 0px;
+  border-radius: 35px;
+  height: 51px;
+  width: 142px;
+  padding-inline: 25px;
+  margin-top: 20px;
 }
 
 .pushbuttons:hover {
-    height: 61px;
-    width: 150px;
+  height: 61px;
+  width: 150px;
 }
 
-.buttspans{
-    padding: 12px, 24px;
-    position: sticky;
+.buttspans {
+  padding: 12px, 24px;
+  position: sticky;
 }
 
-.welcome-to-theclub img{
-    width: 20%;
-    margin-bottom: 10px;
+.welcome-to-theclub img {
+  width: 30%;
+  margin-bottom: 10px;
 }
-.hero-img{
-    width: 50%;
-    background-color: beige;
+.hero-img {
+  width: 50%;
+  background-color: beige;
 }
-.hero-img img{
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
+.hero-img img {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
-.wlcm-to{
-    font-size: 45px;
-    text-align: center;
+.wlcm-to {
+  font-size: 45px;
+  text-align: center;
 }
-.content-first-hero{
-    width: 70%;
-    flex-wrap: wrap;
-    text-align: center;
-    margin-top: 8px;
+.content-first-hero {
+  width: 70%;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 8px;
 }
 
 @media screen and (max-width: 1030px) {
-    .hero{
-        margin-top:95px;
-    }
-.welcome-to-theclub img{
-    width: 45%;
+  .hero {
+    margin-top: 95px;
+  }
+  .welcome-to-theclub img {
+    width: 50%;
     margin-top: 10px;
-}
-.greenButton{
+  }
+  .greenButton {
     margin-bottom: 20px;
-}
+  }
 }
 @media screen and (max-width: 767px) {
-    .hero{
-        display: flex;
-        flex-direction: column-reverse;
-        height: 100%;
-    }
-    .welcome-to-theclub{
-        width: 100%;
-    }
-    .hero-img {
-        width: 100%;
-        background-position: center;
-        background-size: cover;
-   }
-   .greenButton{
-    width: 290px
-   }
-   /* Rimuovere linea bianca sotto l'immagine di Halaand */
-   /* Sistemare il logo fc24 in media query */
-   
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+  }
+  .welcome-to-theclub {
+    width: 100%;
+  }
+  .hero-img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: -5px;
+  }
+  .greenButton {
+    width: 290px;
+  }
 }
