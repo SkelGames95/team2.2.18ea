@@ -9,6 +9,7 @@
     height: 50%;
     display: flex;
     background-color: black;
+    Margin-top: calc(2.2em + 55px)
 }
 
  .welcome-to-theclub{
@@ -66,6 +67,9 @@
 }
 
 @media screen and (max-width: 1030px) {
+    .hero{
+        margin-top:95px;
+    }
 .welcome-to-theclub img{
     width: 45%;
     margin-top: 10px;
