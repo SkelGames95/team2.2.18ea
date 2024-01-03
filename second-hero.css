@@ -70,10 +70,10 @@
         width: 100%;
     }
     .heroSection{
-        height: 510px;
+        height: 30em;
     }
     .secondHero{
-        height: 200px;
+        height: 100%;
     }
     .secondHerofooter{
         flex-direction: column;
@@ -92,13 +92,9 @@
     }
 }
 
-@media (max-width: 767px){
-    /* MANCA */
-}
-
 @media (max-width: 639px){
-    .hero-section{
-        background-image: url(hero-images/ea-play-product-conversion-gradient-jpg-2020-xl.jpg.adapt.320w.jpg);
+    .heroSection{
+        background-image: url("hero-images/ea-play-product-conversion-gradient-jpg-2020-xl.jpg.adapt.320w.jpg");
         background-position: center;
         background-size: cover;
     }
@@ -110,6 +106,9 @@
     }
     .topIMG p{
         margin-right:2%;
+    }
+    .topIMG .signUp button {
+        width: 95%;
     }
     
 }
