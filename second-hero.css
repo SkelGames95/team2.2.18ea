@@ -110,5 +110,10 @@
     .topIMG .signUp button {
         width: 95%;
     }
-    
+    .secondHero{
+        padding: 15px;
+    }
+    .secondHerofooter .findMore{
+        width: 100%;
+    }
 }
