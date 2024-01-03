@@ -97,7 +97,19 @@
 }
 
 @media (max-width: 639px){
-    .pushbuttons.normButton.findMore{
-       width: 550px;
+    .hero-section{
+        background-image: url(hero-images/ea-play-product-conversion-gradient-jpg-2020-xl.jpg.adapt.320w.jpg);
+        background-position: center;
+        background-size: cover;
     }
+    .topIMG{
+        width: 90%;
+    }
+    .fixedImage{
+        display: none;
+    }
+    .topIMG p{
+        margin-right:2%;
+    }
+    
 }
