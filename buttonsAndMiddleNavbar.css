@@ -52,7 +52,7 @@
     height: 100%;
     font-size: var(--sizeNormal);
     gap: 5px;
-    overflow-x: scroll;
+    overflow-x: hidden;
 }
 
 .divider{
@@ -86,6 +86,9 @@
 @media screen and (max-width: 1100px) {
     .slideicon{
         display: block;
+    }
+    .middleNavbar{
+        overflow-x: scroll;
     }
     
 }
