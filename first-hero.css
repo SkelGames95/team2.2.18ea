@@ -86,6 +86,8 @@
   }
   .welcome-to-theclub {
     width: 100%;
+    gap: 0.5em;
+    padding-bottom: 35px;
   }
   .hero-img {
     width: 100%;
@@ -95,5 +97,23 @@
   }
   .greenButton {
     width: 290px;
+    
+  }
+  .pushbuttons.greenButton{
+    width: 400px;
+  }
+}
+@media screen and (max-width: 449px) {
+  .pushbuttons.greenButton{
+    width: 300px;
+  }
+}
+@media screen and (max-width: 315px) {
+  .pushbuttons.greenButton{
+    width: 200px;
+
+  }
+  .wlcm-to{
+    font-size: 32px;
   }
 }
