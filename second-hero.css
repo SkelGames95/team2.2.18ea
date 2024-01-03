@@ -96,4 +96,8 @@
     /* MANCA */
 }
 
-
+@media (max-width: 639px){
+    .pushbuttons.normButton.findMore{
+       width: 550px;
+    }
+}
