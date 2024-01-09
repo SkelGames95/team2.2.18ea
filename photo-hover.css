@@ -1,7 +1,17 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+} */
+
+.head-giochi-evidenza {
+    padding-top: 5%;
+    padding-bottom: -15%;
+}
+
+.head-giochi-evidenza h3{
+    font-size: var(--titleSection);
+    text-align: center;
 }
 
 .giochi-evidenza {
@@ -9,13 +19,12 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    /* gap: 1rem; */
     padding: 7.4218vw;
 }
 
 .photos-contanier{
     width: 33%;
-    padding: 10px 10px
+    padding: 10px 10px; 
 }
 
 .photos-box {
