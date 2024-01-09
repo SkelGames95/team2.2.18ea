@@ -16,6 +16,7 @@
   width: 30%;
     margin: 5% 0 0 2px; 
   border: white solid 2px;
+  transition: height 0.3s, width 0.3s; /* Aggiungi una transizione */
 }
 
 .fixedImage {

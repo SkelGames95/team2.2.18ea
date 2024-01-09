@@ -29,6 +29,7 @@
   width: 142px;
   padding-inline: 25px;
   margin-top: 20px;
+  transition: height 0.3s, width 0.3s; /* Aggiungi una transizione */
 }
 
 .pushbuttons:hover {
