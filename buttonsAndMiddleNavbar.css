@@ -23,6 +23,7 @@
     width: 142px;
     background-color: transparent;
     border: black solid 2px;
+    transition: height 0.3s, width 0.3s; /* Aggiungi una transizione */
 }
 
 .greenButton{
