@@ -118,7 +118,9 @@
   display: inline-block;
   
 }
-
+.navbar-link.dropdown-toggle{
+  font-size: 15px;
+}
 .dropdown-menu {
   display: none;
   position: absolute;
@@ -128,7 +130,6 @@
   border-radius: 7px;
   cursor: pointer;
   
-
 }
 
 .dropdown-menu a {
