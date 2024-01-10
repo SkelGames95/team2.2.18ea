@@ -218,9 +218,9 @@ hr {
 }
 
 .lastLinksFooter {
-    height: 70%;
+    height: 80%;
     width: 85%;
-    margin-top: 7%;
+    margin-top: 5%;
 }
 
 .legalNotesFooter {
@@ -228,6 +228,7 @@ hr {
     width: 100%;
     height: 15%;
     gap: 3em;
+    margin-bottom: 0.5em;
 }
 
 #legalNotes {
@@ -451,7 +452,7 @@ hr {
 }
 
 .cElectronicArtsFooter {
-    margin-top: 12px;
+    margin-top: 15px;
 }
 
 .firstSideButtonEvent2 {

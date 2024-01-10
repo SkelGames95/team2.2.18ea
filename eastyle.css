@@ -1,0 +1,533 @@
+:root {
+    --marginBody: 0;
+    --navbarWidthHeight: 100%;
+    --headerWidth: 100%;
+    --eaThemeSpacerHeight: 96px;
+    --haalandSection: 100%;
+    --eaplayGameboxHeightWidth: 100%;
+    --eaplayGameboxLeft: 0;
+    --eaplayGameboxTop:0;
+    --cardsLastNewsWidth: 33.3%;
+    --cardsTitleImgWidth: 100%;
+    --cardsMinHeight: 110px;
+    --buttonsBorderWidth: 2px;
+    --eaplayHeroContentWidthHeightWidth: 100%;
+    --eaplayHeroContentPadding: 32px;
+    --eaplayHeroContentTop: 0;
+    --eaplayHeroContentZindex: 4;
+    --gamersAndParentsFontsize: 24px;
+    --gamersAndParentsFontweight: 600;
+    --gamersAndParentsMargin: 1em0;
+    --linkButtonDiscoverMoreTopLeftBottomRight: 0;
+    --preFooterFontSize: 16px;
+    --footerButtonsPadding: 0 36px 0 24px;
+    --footerButtonsWidthHeight: 100%;
+    --iconsSizing: 25px;
+    --purpleLogoFooterSizing: 70px;
+    --arrowFooterSizing: 16px;
+    --colorRegionalPrice: gray;
+    --colorThemePreFooter: #DEDEDE;
+    --colorThemeFooter: #eaeaea; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.containerOfAll {
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    background: var(--colorThemePreFooter);
+    flex-direction: column;
+}
+
+.containerPreFooter {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    margin-bottom: 5em;
+}
+
+.contentPreFooter {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding: 0 15em;
+}
+
+.termsAndlicense {
+    width: 100%;
+    height: 10%;
+    margin-top: 5%;
+}
+
+#termsAndCondition {
+    font-size: 13px;
+}
+
+#terms {
+    color: red;
+    text-decoration: none;
+}
+
+hr {
+    margin-top: 2%;
+    color: black;
+}
+
+.someLinksOfSocial {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+#someLinksOfSocial {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    gap: 4em;
+    padding-top: 2em;
+}
+
+#iconConversation {
+    width: var(--iconsSizing);
+    height: var(--iconsSizing);
+}
+
+#hrProblems{
+    display: none;
+}
+
+.iconsPreFooter {
+    display: flex;
+    height: 20%;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    flex-direction: column;
+    padding-top: 2em;
+}
+.icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#conversation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#iconConversation:hover {
+     height: 30px;
+     width: 30px;
+     transition: 0.1s;
+}
+
+#linksPreFooter {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    flex-wrap: nowrap;
+}
+
+#linksPreFooter:hover {
+    color: red;
+}
+
+.containerFooter {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--colorThemeFooter);
+    padding: 2em 15em;
+}
+
+.contentFooter {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+
+#eaLogoFooter {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.eaLogoFooter {
+    margin-top: 25%;
+    height: var(--purpleLogoFooterSizing);
+    width: var(--purpleLogoFooterSizing);
+}
+
+.allLinksOfFooter {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 3em;
+}
+
+.firstLineOfLinksFooter {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    margin-top: 7%;
+    gap: 3em;
+}
+
+.secondLineOfLinksFooter {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    margin-top: 7%;
+    gap: 3em;
+}
+
+#firstLineOfLinksFooter {
+    text-decoration: none;
+    color: black;
+    font-size: var(--preFooterFontSize);
+}
+
+#secondLineOfLinksFooter {
+    text-decoration: none;
+    color: black;
+    font-size: var(--preFooterFontSize);
+}
+
+.lastLinksFooter {
+    height: 80%;
+    width: 85%;
+    margin-top: 5%;
+}
+
+.legalNotesFooter {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    gap: 3em;
+    margin-bottom: 0.5em;
+}
+
+#legalNotes {
+    color: black;
+    text-decoration: none;
+    font-size: 13.5px;
+}
+
+.legalNotesFooter2 {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    gap: 3em;
+    margin-top: 3%;
+}
+
+.buttonsFooter {
+    height: 100%;
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 4%;
+}
+
+#buttonsFooter {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 4em;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 3%;
+}
+
+#buttonRegionsFooter {
+    height: 60px;
+    width: 200px;
+    border-radius: 3.5px;
+    border-color: grey;
+    align-items: center;
+    background: var(--colorThemeFooter);
+}
+
+#buttonCountriesFooter {
+    height: 60px;
+    width: 200px;
+    border-radius: 3.5px;
+    border-color: grey;
+    align-items: center;
+    background: var(--colorThemeFooter);
+}
+
+#buttonRegionsFooter:hover {
+    display: flex;
+    height: 65px;
+    width: 205px;
+    z-index: 2;
+    flex-direction: column;
+}
+
+#buttonCountriesFooter:hover {
+    display: flex;
+    height: 65px;
+    width: 205px;
+    z-index: 2;
+    flex-direction: column;
+    
+}
+
+.RegionalPricesFooter {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#ItalyFooter {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#arrowFooter {
+    height: var(--arrowFooterSizing);
+    width: var(--arrowFooterSizing);
+    margin-right: 10px;
+    position: sticky;
+}
+
+#RegionalPricesFooter {
+    margin-top: 4px;
+    margin-left: 10px;
+    color: var(--colorRegionalPrice);
+}
+
+#italy {
+    margin-left: 10px;
+}
+
+.handlingEventButtonFooter {
+    position: absolute;
+    height: 400px;
+    width: 600px;
+    z-index: 999;
+    background: var(--colorThemeFooter);
+    margin-left: 40%;
+    margin-top: 7.5%;
+    flex-direction: row;
+    display: none;
+    border-radius: 3px;
+}
+
+.firstSideButtonEvent {
+    display: flex;
+    height: 100%;
+    width: 25%;
+    flex-direction: column;
+    padding: 2em;
+    justify-content: space-between;
+}
+
+.secondSideButtonEvent {
+    display: flex;
+    height: 100%;
+    width: 25%;
+    flex-direction: column;
+    padding: 2em;
+    justify-content: space-between;
+}
+
+.thirdSideButtonEvent {
+    display: flex;
+    height: 100%;
+    width: 25%;
+    flex-direction: column;
+    padding: 2em;
+    justify-content: space-between;
+}
+
+.fourthSideButtonEvent {
+    display: flex;
+    height: 100%;
+    width: 25%;
+    flex-direction: column;
+    padding: 2em;
+    justify-content: space-between;
+}
+
+.lastFourCountries {
+    display: flex;
+    width: 100%;
+    height: 39%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#countriesEvent {
+    text-decoration: none;
+    color: black;
+}
+
+#countriesEvent:hover {
+    margin-left: 6px;
+    transition: 0.1s;
+}
+
+
+.handlingEventButtonFooter2 {
+    position: sticky;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    z-index: 999;
+    background: var(--colorThemeFooter);
+    margin-left: 65%;
+    margin-top: 7.5%;
+    flex-direction: row;
+    display: none;
+    border-radius: 3px;
+}
+
+#italyFooter2 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.lastSixCountries {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#italyFlag {
+      margin-left: 10px;
+      position: sticky;
+}
+
+#italy2 {
+    margin-right: 85px;
+    position: sticky;
+}
+
+.trusteFooter {
+    margin-top: 20%;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: sticky;
+}
+
+.cElectronicArtsFooter {
+    margin-top: 15px;
+}
+
+.firstSideButtonEvent2 {
+    display: flex;
+    height: 100%;
+    width: 33.33333%;
+    flex-direction: column;
+    padding: 2em;
+    justify-content: space-between;
+}
+
+.secondSideButtonEvent2 {
+    display: flex;
+    height: 100%;
+    width: 33.333%;
+    flex-direction: column;
+    padding: 2em;
+    justify-content: space-between;
+}
+
+.thirdSideButtonEvent2 {
+    display: flex;
+    height: 100%;
+    width: 33.333%;
+    flex-direction: column;
+    padding: 2em;
+    justify-content: space-between;
+}
+
+#arrowFooter2 {
+    height: var(--arrowFooterSizing);
+    width: var(--arrowFooterSizing);
+    margin-right: 10px;
+    position: sticky;
+}
+
+.flipped {
+    transform: scaleY(-1);
+}
+
+.hrProblems {
+    display: none;
+}
+
+@media (max-width:1490px){
+    .someLinksOfSocial{
+        flex-wrap: wrap;
+    }
+    .hrProblems{
+        display: show;
+    }
+}
+
+@media (max-width: 1340px){
+        .contentFooter{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+}
+
+@media (max-width:1029px){
+    .hrProblems{
+        display: show;
+    }
+
+}
+
+@media (max-width: 767px){
+    #someLinksOfSocial{
+        flex-wrap: wrap;
+    }
+    .iconsPreFooter{
+        margin-top: 50%;
+    }
+}
