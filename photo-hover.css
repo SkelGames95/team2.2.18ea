@@ -21,6 +21,7 @@
     align-items: center;
     padding: 7.4218vw 15em;
     padding-top: 3vw;
+    padding-bottom: 2em;
 }
 
 .photos-contanier{
@@ -82,6 +83,7 @@
     .giochi-evidenza{
         padding: 7.4218vw;
         padding-top: 3vw;
+        padding-bottom: 2em;
     }
 }
 
