@@ -1,0 +1,25 @@
+:root {
+    --marginBody: 0;
+    --navbarWidthHeight: 100%;
+    --headerWidth: 100%;
+    --eaThemeSpacerHeight: 96px;
+    --haalandSection: 100%;
+    --eaplayGameboxHeightWidth: 100%;
+    --eaplayGameboxLeft: 0;
+    --eaplayGameboxTop:0;
+    --cardsLastNewsWidth: 33.3%;
+    --cardsTitleImgWidth: 100%;
+    --cardsMinHeight: 110px;
+    --buttonsBorderWidth: 2px;
+    --eaplayHeroContentWidthHeightWidth: 100%;
+    --eaplayHeroContentPadding: 32px;
+    --eaplayHeroContentTop: 0;
+    --eaplayHeroContentZindex: 4;
+    --gamersAndParentsFontsize: 24px;
+    --gamersAndParentsFontweight: 600;
+    --gamersAndParentsMargin: 1em0;
+    --linkButtonDiscoverMoreTopLeftBottomRight: 0;
+    --preFooterFontSize: 16px;
+    --footerButtonsPadding: 0 36px 0 24px;
+    --footerButtonsWidthHeight: 100%;
+}
