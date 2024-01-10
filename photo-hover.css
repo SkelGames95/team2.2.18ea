@@ -19,7 +19,8 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    padding: 7.4218vw;
+    padding: 7.4218vw 15em;
+    padding-top: 3vw;
 }
 
 .photos-contanier{
@@ -77,9 +78,19 @@
     transform: translate3d(-50%,-50%,0);
 }
 
+@media (max-width: 1490px){
+    .giochi-evidenza{
+        padding: 7.4218vw;
+        padding-top: 3vw;
+    }
+}
+
 @media screen and (max-width: 1029px) {
     .photos-contanier {
         width: 50%;
+    }
+    .head-giochi-evidenza>h3{
+        font-size: var(--titleSectionMedia);
     }
 }
 
