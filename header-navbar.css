@@ -195,7 +195,9 @@
     font-size: 25px;
     cursor: pointer;
   }
-
+.navbar{
+  height: 64px;
+}
 }
 
 
